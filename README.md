@@ -10,4 +10,4 @@ Embedded software for an ESP32 driven device that
 - displays the operational state via a street light:
   - Red:    Sauna is still too cold
   - Yellow: Sauna is almost heated up
-  - Green:  Sauba is ready to be used
+  - Green:  Sauna is ready to be used
