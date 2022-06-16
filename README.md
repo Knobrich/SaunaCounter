@@ -1,4 +1,7 @@
 # SaunaCounter
+
+![Lines of code](https://img.shields.io/tokei/lines/github/Knobrich/SaunaCounter)
+
 Embedded software for an ESP32 driven device that
 - calculates the power supply costs of a sauna by
   - counting how long the sauna heater is powered up (operation time)
