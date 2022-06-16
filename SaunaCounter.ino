@@ -2,8 +2,8 @@
                         Sauna Counter
 This software calculates the cost for the present sauna session.
 An LDR connected to analog input 6 must be taped to a lamp which
-indicates that current is applied to the sauna heater.
-Every second the state ist evaluated.
+indicates that electric current is applied to the sauna heater.
+Every 1000 ms the state ist evaluated.
 If the current is applied the OnCounter is incremented.
 The value of OnCounter is then used to calculate the accumulated
 cost since power on of the ECU.
@@ -28,10 +28,13 @@ DS18B20 sensor(&oneWire);
 
 // Energy cost [EUR / kWh]
 #define ECpkWh  0.2243
+
 // Energy tax [EUR / kWh]
 #define ETpkWh  0.0205
+
 // Sales tax as factor
 #define Tax     1.16
+
 // Power of Sauna heater [kW]
 #define Power   4.5
 

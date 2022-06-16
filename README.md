@@ -1,6 +1,8 @@
 # SaunaCounter
 
-![Lines of code](https://img.shields.io/tokei/lines/github/Knobrich/SaunaCounter)
+![](https://img.shields.io/badge/ECU-ESP32-blue)
+![](https://img.shields.io/badge/temperature_sensor-DS18B20-blue)
+![](https://img.shields.io/badge/state_display-traffic_light-blue)
 
 Embedded software for an ESP32 driven device that
 - calculates the power supply costs of a sauna by
@@ -10,7 +12,7 @@ Embedded software for an ESP32 driven device that
   
 - reads the actual sauna temperature via a DS18B20 sensor and
 
-- displays the operational state via a street light:
+- displays the operational state via a traffic light:
   - Red:    Sauna is still too cold
   - Yellow: Sauna is almost heated up
   - Green:  Sauna is ready to be used
