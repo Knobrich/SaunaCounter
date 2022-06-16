@@ -1,6 +1,8 @@
 # SaunaCounter
 
-![Lines of code](https://img.shields.io/tokei/lines/github/Knobrich/SaunaCounter)
+![](https://img.shields.io/badge/ECU-ESP32-blue)
+![](https://img.shields.io/badge/ECU-ESP32-blue)
+![](https://img.shields.io/badge/ECU-ESP32-blue)
 
 Embedded software for an ESP32 driven device that
 - calculates the power supply costs of a sauna by
