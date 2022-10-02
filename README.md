@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/state_display-traffic_light-blue)
 
 Embedded software for an ESP32 driven device that
+
 - calculates the power supply costs of a sauna by
   - counting how long the sauna heater is powered up (operation time)
   - multiplying the operation time with the nominal power of the heater (electrical work) and
